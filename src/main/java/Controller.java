@@ -59,15 +59,15 @@ public class Controller {
 
         }, velocityTemplateEngine);
 
-//        get("/:number", (req, res) -> {
-//
-//            NameSelector nameSelector1 = new NameSelector();
-//            HashMap<String, Object> model = new HashMap<>();
-//            model.put("two", nameSelector1.getRandomNames(2));
-//            model.put("template", "multiple.vtl");
-//            return new ModelAndView(model, "layout.vtl");
-//
-//        }, velocityTemplateEngine);
+        get("/:number", (req, res) -> {
+
+            NameSelector nameSelector1 = new NameSelector();
+            HashMap<String, Object> model = new HashMap<>();
+            model.put("multiple", nameSelector1.getRandomNames(Integer.parseInt(req.params(":number"))));
+            model.put("template", "multiple.vtl");
+            return new ModelAndView(model, "layout.vtl");
+
+        }, velocityTemplateEngine);
 
 
 
