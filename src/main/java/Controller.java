@@ -59,6 +59,17 @@ public class Controller {
 
         }, velocityTemplateEngine);
 
+        get("/:number/:groupsize", (req, res) -> {
+
+            NameSelector nameSelector1 = new NameSelector();
+            HashMap<String, Object> model = new HashMap<>();
+            model.put("groups", nameSelector1.getRandomGroups(Integer.parseInt(req.params(":number")), Integer.parseInt(req.params(":groupsize"))));
+            model.put("template", "groups.vtl");
+            return new ModelAndView(model, "layout.vtl");
+
+        }, velocityTemplateEngine);
+
+
         get("/:number", (req, res) -> {
 
             NameSelector nameSelector1 = new NameSelector();
@@ -68,7 +79,6 @@ public class Controller {
             return new ModelAndView(model, "layout.vtl");
 
         }, velocityTemplateEngine);
-
 
 
     }

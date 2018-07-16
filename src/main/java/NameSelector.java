@@ -87,4 +87,21 @@ public class NameSelector {
         return namesToReturn;
     }
 
+    public ArrayList<ArrayList<String>> getRandomGroups(int numberOfNames, int groupSize) {
+        ArrayList<ArrayList<String>> namesToReturn = new ArrayList<ArrayList<String>>();
+        int nameListLength = this.getNameListLength();
+         while (names.size() > nameListLength - numberOfNames && names.size() > 0) {
+             ArrayList<String> namesForGroup = new ArrayList<String>();
+             while (namesForGroup.size() < groupSize && names.size() > nameListLength - numberOfNames) {
+                 int quantity = names.size();
+                 Random random = new Random();
+                 int index = random.nextInt(quantity);
+                 String additionalName = names.remove(index);
+                 namesForGroup.add(additionalName);
+             }
+             namesToReturn.add(namesForGroup);
+         }
+        return namesToReturn;
+    }
+
 }
