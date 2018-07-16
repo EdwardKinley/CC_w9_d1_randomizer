@@ -15,3 +15,7 @@ td, th {
 table {
   border: solid red 0.1rem;
 }
+
+header, footer, parse {
+    text-align: center;
+}

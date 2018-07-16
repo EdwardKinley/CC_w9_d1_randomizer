@@ -16,7 +16,6 @@ public class Controller {
         staticFileLocation("/public");
 
         NameSelector nameSelector = new NameSelector();
-        String one = nameSelector.getRandomName();
 
         get("/", (req, res) -> {
             return "Hello World!";
@@ -31,18 +30,46 @@ public class Controller {
 
         }, velocityTemplateEngine);
 
+        get("/1", (req, res) -> {
 
+            HashMap<String, Object> model = new HashMap<>();
+            model.put("one", nameSelector.getRandomName());
+            model.put("template", "one.vtl");
+            return new ModelAndView(model, "layout.vtl");
 
+        }, velocityTemplateEngine);
+
+        get("/two", (req, res) -> {
+
+            NameSelector nameSelector1 = new NameSelector();
+            HashMap<String, Object> model = new HashMap<>();
+            model.put("two", nameSelector1.getRandomNames(2));
+            model.put("template", "two.vtl");
+            return new ModelAndView(model, "layout.vtl");
+
+        }, velocityTemplateEngine);
+
+        get("/2", (req, res) -> {
+
+            NameSelector nameSelector1 = new NameSelector();
+            HashMap<String, Object> model = new HashMap<>();
+            model.put("two", nameSelector1.getRandomNames(2));
+            model.put("template", "two.vtl");
+            return new ModelAndView(model, "layout.vtl");
+
+        }, velocityTemplateEngine);
+
+//        get("/:number", (req, res) -> {
 //
-//
-//
-//        get("/flights", (req, res) -> {
-//
+//            NameSelector nameSelector1 = new NameSelector();
 //            HashMap<String, Object> model = new HashMap<>();
-//
-//            model.put("template", "flights.vtl");
+//            model.put("two", nameSelector1.getRandomNames(2));
+//            model.put("template", "multiple.vtl");
 //            return new ModelAndView(model, "layout.vtl");
 //
 //        }, velocityTemplateEngine);
+
+
+
     }
 }
