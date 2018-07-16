@@ -1,0 +1,17 @@
+body {
+    background-color: linen;
+    color: maroon;
+    font-family: verdana;
+}
+
+h1 {
+    font-size: 5rem;
+}
+
+td, th {
+    border: solid blue 0.1rem;
+}
+
+table {
+  border: solid red 0.1rem;
+}
