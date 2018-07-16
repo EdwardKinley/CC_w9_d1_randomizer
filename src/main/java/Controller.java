@@ -1,6 +1,7 @@
 import spark.ModelAndView;
 import spark.template.velocity.VelocityTemplateEngine;
 
+import javax.naming.Name;
 import java.util.ArrayList;
 import java.util.HashMap;
 
@@ -14,6 +15,9 @@ public class Controller {
         VelocityTemplateEngine velocityTemplateEngine = new VelocityTemplateEngine();
         staticFileLocation("/public");
 
+        NameSelector nameSelector = new NameSelector();
+        String one = nameSelector.getRandomName();
+
         get("/", (req, res) -> {
             return "Hello World!";
         });
@@ -21,7 +25,7 @@ public class Controller {
         get("/one", (req, res) -> {
 
             HashMap<String, Object> model = new HashMap<>();
-            model.put("one", one);
+            model.put("one", nameSelector.getRandomName());
             model.put("template", "one.vtl");
             return new ModelAndView(model, "layout.vtl");
 
