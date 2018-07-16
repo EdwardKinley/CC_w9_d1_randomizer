@@ -77,7 +77,7 @@ public class NameSelector {
     public ArrayList<String> getRandomNames(int numberOfNames) {
         ArrayList<String> namesToReturn = new ArrayList<String>();
         int nameListLength = this.getNameListLength();
-        while (names.size() > nameListLength - numberOfNames) {
+        while (names.size() > nameListLength - numberOfNames && names.size() > 0) {
             int quantity = names.size();
             Random random = new Random();
             int index = random.nextInt(quantity);
@@ -86,7 +86,5 @@ public class NameSelector {
         }
         return namesToReturn;
     }
-
-
 
 }

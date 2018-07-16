@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8e9ad86d-3790-4fff-8a96-a4b31e04d9e0" name="Default" comment="" />
+    <list default="true" id="8e9ad86d-3790-4fff-8a96-a4b31e04d9e0" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/one.vtl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/NameSelector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/NameSelector.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/RandomizerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/NameSelectorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/NameSelectorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/NameSelector.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/NameSelector.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/NameSelectorTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/NameSelectorTest.class" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,8 +26,8 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
-              <caret line="38" selection-start-line="38" selection-end-line="38" />
+            <state relative-caret-position="-7">
+              <caret line="50" selection-start-line="50" selection-end-line="50" />
             </state>
           </provider>
         </entry>
@@ -30,17 +40,17 @@
       <file leaf-file-name="layout.vtl" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/layout.vtl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
+            <state relative-caret-position="-7">
               <caret line="17" column="7" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RandomizerController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/RandomizerController.java">
+      <file leaf-file-name="Controller.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Controller.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="90">
+              <caret line="25" column="57" selection-start-line="25" selection-start-column="57" selection-end-line="25" selection-end-column="57" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -48,11 +58,16 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="one.vtl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/one.vtl">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
       <file leaf-file-name="NameSelector.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/NameSelector.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="278">
-              <caret line="79" column="44" selection-start-line="79" selection-start-column="44" selection-end-line="79" selection-end-column="44" />
+            <state relative-caret-position="-7">
+              <caret line="88" selection-start-line="88" selection-end-line="88" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#179#187#0" expanded="true" />
@@ -70,11 +85,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NameSelectorTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="NameSelectorTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/NameSelectorTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="32" column="59" selection-start-line="32" selection-start-column="59" selection-end-line="32" selection-end-column="59" />
+            <state relative-caret-position="-7">
+              <caret line="44" column="58" selection-start-line="44" selection-start-column="58" selection-end-line="44" selection-end-column="58" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#132#133#0" expanded="true" />
@@ -99,6 +114,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -112,6 +130,7 @@
         <option value="$PROJECT_DIR$/src/main/java/NameList.java" />
         <option value="$PROJECT_DIR$/src/test/java/NameSelectorTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/NameSelector.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Controller.java" />
       </list>
     </option>
   </component>
@@ -122,10 +141,13 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="23" />
+  <component name="ProjectFrameBounds">
+    <option name="y" value="424" />
     <option name="width" value="1440" />
-    <option name="height" value="826" />
+    <option name="height" value="425" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -220,34 +242,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.NameSelectorTest.canGetTwoNames">
+  <component name="RunManager" selected="Application.Controller">
+    <configuration name="Controller" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Controller" />
+      <module name="Randomizer" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="NameSelectorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="NameSelectorTest.canGetAllNames" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Randomizer" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="NameSelectorTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="NameSelectorTest.canGetFirstName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Randomizer" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="NameSelectorTest" />
-      <option name="METHOD_NAME" value="canGetFirstName" />
+      <option name="METHOD_NAME" value="canGetAllNames" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -258,13 +268,13 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="NameSelectorTest.canGetNameListLength" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="NameSelectorTest.canGetFiveNames" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Randomizer" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="NameSelectorTest" />
-      <option name="METHOD_NAME" value="canGetNameListLength" />
+      <option name="METHOD_NAME" value="canGetFiveNames" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -275,13 +285,13 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="NameSelectorTest.canGetRandomame" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="NameSelectorTest.canGetSixteenNames" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Randomizer" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="NameSelectorTest" />
-      <option name="METHOD_NAME" value="canGetRandomame" />
+      <option name="METHOD_NAME" value="canGetSixteenNames" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -292,13 +302,13 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="NameSelectorTest.canGetTwoNames" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="NameSelectorTest.cannotGetMoreThanAllNames" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Randomizer" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="NameSelectorTest" />
-      <option name="METHOD_NAME" value="canGetTwoNames" />
+      <option name="METHOD_NAME" value="cannotGetMoreThanAllNames" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -348,19 +358,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.NameSelectorTest.canGetNameListLength" />
-      <item itemvalue="JUnit.NameSelectorTest.canGetFirstName" />
-      <item itemvalue="JUnit.NameSelectorTest" />
-      <item itemvalue="JUnit.NameSelectorTest.canGetRandomame" />
-      <item itemvalue="JUnit.NameSelectorTest.canGetTwoNames" />
+      <item itemvalue="JUnit.NameSelectorTest.canGetFiveNames" />
+      <item itemvalue="JUnit.NameSelectorTest.canGetSixteenNames" />
+      <item itemvalue="JUnit.NameSelectorTest.canGetAllNames" />
+      <item itemvalue="JUnit.NameSelectorTest.cannotGetMoreThanAllNames" />
+      <item itemvalue="Application.Controller" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.NameSelectorTest.canGetTwoNames" />
-        <item itemvalue="JUnit.NameSelectorTest.canGetRandomame" />
-        <item itemvalue="JUnit.NameSelectorTest" />
-        <item itemvalue="JUnit.NameSelectorTest.canGetFirstName" />
-        <item itemvalue="JUnit.NameSelectorTest.canGetNameListLength" />
+        <item itemvalue="Application.Controller" />
+        <item itemvalue="JUnit.NameSelectorTest.cannotGetMoreThanAllNames" />
+        <item itemvalue="JUnit.NameSelectorTest.canGetAllNames" />
+        <item itemvalue="JUnit.NameSelectorTest.canGetSixteenNames" />
+        <item itemvalue="JUnit.NameSelectorTest.canGetFiveNames" />
       </list>
     </recent_temporary>
   </component>
@@ -378,39 +388,39 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="NameListTest_canGetNameListLength - 2018.07.16 at 16h 38m 45s.xml">
-      <configuration name="NameListTest.canGetNameListLength" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="NameListTest_canGetNameListLength - 2018.07.16 at 16h 39m 32s.xml">
-      <configuration name="NameListTest.canGetNameListLength" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="NameListTest_canGetNameListLength - 2018.07.16 at 16h 39m 45s.xml">
-      <configuration name="NameListTest.canGetNameListLength" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="NameListTest_canGetFirstName - 2018.07.16 at 16h 51m 09s.xml">
-      <configuration name="NameListTest.canGetFirstName" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="NameListTest - 2018.07.16 at 16h 52m 55s.xml">
-      <configuration name="NameListTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="NameSelectorTest - 2018.07.16 at 17h 43m 53s.xml">
+    <history-entry file="NameSelectorTest - 2018.07.16 at 18h 46m 14s.xml">
       <configuration name="NameSelectorTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="NameSelectorTest_canGetRandomame - 2018.07.16 at 17h 48m 01s.xml">
-      <configuration name="NameSelectorTest.canGetRandomame" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="NameSelectorTest_canGetRandomame - 2018.07.16 at 18h 22m 14s.xml">
-      <configuration name="NameSelectorTest.canGetRandomame" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="NameSelectorTest_canGetTwoNames - 2018.07.16 at 18h 36m 52s.xml">
+    <history-entry file="NameSelectorTest_canGetTwoNames - 2018.07.16 at 18h 46m 30s.xml">
       <configuration name="NameSelectorTest.canGetTwoNames" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="NameSelectorTest_canGetTwoNames - 2018.07.16 at 18h 40m 11s.xml">
-      <configuration name="NameSelectorTest.canGetTwoNames" configurationId="JUnit" />
+    <history-entry file="NameSelectorTest_canGetFiveNames - 2018.07.16 at 18h 46m 50s.xml">
+      <configuration name="NameSelectorTest.canGetFiveNames" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NameSelectorTest_canGetSixteenNames - 2018.07.16 at 18h 47m 37s.xml">
+      <configuration name="NameSelectorTest.canGetSixteenNames" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NameSelectorTest_canGetSixteenNames - 2018.07.16 at 18h 47m 59s.xml">
+      <configuration name="NameSelectorTest.canGetSixteenNames" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NameSelectorTest_canGetAllNames - 2018.07.16 at 18h 48m 48s.xml">
+      <configuration name="NameSelectorTest.canGetAllNames" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NameSelectorTest_cannotGetMoreThanAllNames - 2018.07.16 at 18h 49m 50s.xml">
+      <configuration name="NameSelectorTest.cannotGetMoreThanAllNames" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NameSelectorTest_cannotGetMoreThanAllNames - 2018.07.16 at 19h 04m 18s.xml">
+      <configuration name="NameSelectorTest.cannotGetMoreThanAllNames" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NameSelectorTest_cannotGetMoreThanAllNames - 2018.07.16 at 19h 50m 51s.xml">
+      <configuration name="NameSelectorTest.cannotGetMoreThanAllNames" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NameSelectorTest_cannotGetMoreThanAllNames - 2018.07.16 at 19h 51m 38s.xml">
+      <configuration name="NameSelectorTest.cannotGetMoreThanAllNames" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="826" extended-state="6" />
+    <frame x="0" y="424" width="1440" height="425" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" />
@@ -421,12 +431,12 @@
       <window_info anchor="right" id="Capture Analysis" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32921812" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.0" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" weight="0.32921812" />
       <window_info id="Capture Tool" />
       <window_info id="Designer" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25250357" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22389127" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" />
@@ -453,32 +463,40 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/layout.vtl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
+        <state relative-caret-position="-7">
           <caret line="17" column="7" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="38" selection-start-line="38" selection-end-line="38" />
+        <state relative-caret-position="-7">
+          <caret line="50" selection-start-line="50" selection-end-line="50" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/RandomizerController.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/NameSelectorTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="-7">
+          <caret line="44" column="58" selection-start-line="44" selection-start-column="58" selection-end-line="44" selection-end-column="58" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#132#133#0" expanded="true" />
+            <element signature="e#170#171#0" expanded="true" />
+            <element signature="e#280#281#0" expanded="true" />
+            <element signature="e#302#303#0" expanded="true" />
+            <element signature="e#383#384#0" expanded="true" />
+            <element signature="e#412#413#0" expanded="true" />
+            <element signature="e#382#383#0" expanded="true" />
+            <element signature="e#444#445#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/NameSelector.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="79" column="44" selection-start-line="79" selection-start-column="44" selection-end-line="79" selection-end-column="44" />
+        <state relative-caret-position="-7">
+          <caret line="88" selection-start-line="88" selection-end-line="88" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#179#187#0" expanded="true" />
@@ -495,20 +513,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/NameSelectorTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/one.vtl">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Controller.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="32" column="59" selection-start-line="32" selection-start-column="59" selection-end-line="32" selection-end-column="59" />
+        <state relative-caret-position="90">
+          <caret line="25" column="57" selection-start-line="25" selection-start-column="57" selection-end-line="25" selection-end-column="57" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#132#133#0" expanded="true" />
-            <element signature="e#170#171#0" expanded="true" />
-            <element signature="e#280#281#0" expanded="true" />
-            <element signature="e#302#303#0" expanded="true" />
-            <element signature="e#383#384#0" expanded="true" />
-            <element signature="e#412#413#0" expanded="true" />
-            <element signature="e#382#383#0" expanded="true" />
-            <element signature="e#444#445#0" expanded="true" />
           </folding>
         </state>
       </provider>
